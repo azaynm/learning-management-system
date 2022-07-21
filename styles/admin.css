@@ -1,0 +1,174 @@
+body {
+  color: grey;
+}
+
+.admin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: bold;
+
+}
+
+
+
+.side-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  min-width: 20%;
+  text-transform: uppercase;
+  background-color: black;
+
+}
+
+.side-bar a {
+  margin: 20px;
+  padding: 20px;
+  width: 100%;
+
+}
+
+.side-bar a:hover {
+
+  background-color: grey;
+}
+
+.middle {
+  display: flex;
+  justify-content: center;
+  width: auto;
+  min-width: 80%;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.middle img {
+  width: 200px;
+  border-radius: 50%;
+}
+
+
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  padding-top: 100px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+#close1,
+#close2,
+#close3,
+#close4,
+#close5,
+#close6 {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+#close1:hover,
+#close1:focus,
+#close2:hover,
+#close2:focus,
+#close3:hover,
+#close3:focus,
+#close4:hover,
+#close4:focus,
+#close5:hover,
+#close5:focus,
+#close6:hover,
+#close6:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+input[type=text],
+input[type=password],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+@media only screen and (max-width: 600px) {
+
+  img {
+    margin-bottom: 10px;
+  }
+
+  .admin {
+    flex-direction: column-reverse;
+  }
+
+  .side-bar {
+    width: 100%;
+
+  }
+
+  .side-bar a {
+    margin: 0;
+    text-align: center;
+  }
+
+  .middle {
+    width: 100%;
+
+  }
+
+  .side-bar {
+    width: 100%;
+  }
+}
