@@ -72,7 +72,8 @@ function show(data) {
         text-align: center;
         text-decoration: none;
         display: inline-block;
-        font-size: 14px;
+        font-size: 16px;
+        font-weight:bold;
         margin: 4px 4px;
         cursor: pointer;
         "

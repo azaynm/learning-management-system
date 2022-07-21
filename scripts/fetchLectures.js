@@ -50,6 +50,7 @@ function show(data) {
         text-decoration: none;
         display: inline-block;
         font-size: 16px;
+        font-weight:bold;
         margin: 4px 2px;
         cursor: pointer;
         border-radius:50px;"

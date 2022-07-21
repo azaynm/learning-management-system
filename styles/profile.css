@@ -9,12 +9,7 @@
 .profile {
   display: flex;
   padding: 20px 120px;
-
 }
-
-
-
-
 
 .name {
   display: flex;
@@ -22,30 +17,25 @@
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-
 }
 
 
 .name .info {
   background-color: grey;
+  width: 100%;
+  margin-bottom: 8px;
+  border-radius: 10px;
 }
 
 .name h2,
 .name h5 {
-
   text-align: center;
   color: white;
 }
 
-.name .info {
-  background-color: gray;
-  width: 100%;
-  border-radius: 10px;
-}
-
-
 input[type=text],
 select {
+  margin-bottom: 8px;
   width: auto;
   max-width: 100%;
   padding: 12px 20px;
@@ -59,7 +49,7 @@ select {
   width: auto;
   width: 100%;
   padding: 12px 20px;
-  margin: 8px 0;
+  margin-bottom: 8px;
   display: inline-block;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -170,6 +160,7 @@ select {
 
   .name input {
     width: 100%;
+    margin-bottom: 10px;
   }
 }
 
