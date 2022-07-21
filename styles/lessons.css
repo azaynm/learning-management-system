@@ -1,6 +1,7 @@
 .lessons {
   font-size: 18px;
   font-weight: bold;
+  text-align: justify;
 }
 
 
@@ -8,9 +9,8 @@
   width: 150px;
 }
 
-.sidebar img {
+img {
   width: 200px;
-
 }
 
 
@@ -64,7 +64,6 @@
   }
 
   button{
-    width:100px;
-    
+    width:150px;
   }
 }

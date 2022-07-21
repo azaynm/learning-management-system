@@ -1,10 +1,15 @@
+.lectures{
+  font-size: 18px;
+  font-weight: bold;
+  text-align: justify;
+}
+
 .upload input {
   width: 150px;
 }
 
 .sidebar img {
   width: 200px;
-
 }
 
 
@@ -58,6 +63,6 @@
   }
 
   button{
-    width:100px;
+    width:150px;
   }
 }

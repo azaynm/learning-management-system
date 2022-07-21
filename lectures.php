@@ -13,7 +13,7 @@
 </head>
 <body>
     <?php include 'php/header.php';?>
-    <div>
+    <div class="lectures">
         <!-- Here a loader is created which 
              loads till response comes -->
         <div class="d-flex justify-content-center">
